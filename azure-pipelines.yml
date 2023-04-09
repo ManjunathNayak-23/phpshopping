@@ -1,8 +1,0 @@
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Free Trial (bdf4f08e-08cc-4ebe-bd99-ac60b1293f5f)'
-    appType: 'webAppLinux'
-    WebAppName: 'lifestyleshop'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    RuntimeStack: 'PHP|8.0'
